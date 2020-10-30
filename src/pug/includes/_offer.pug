@@ -1,0 +1,17 @@
+.header__main-offer.main-offer
+    .main-offer__wrapper
+        .main-offer__box
+            h1.main-offer__title.title="Как работать в новых условиях?"
+            p.main-offer__paragraph="Вся информация о работе в удаленном режиме"
+        ul.main-offer__main-list.main-list.main-list--horizontal
+            each item in data.tags.items
+                li.main-list__item=item.text
+
+    ul.main-offer__alist-tabs.alist-tabs
+        each item in data.tabs.items
+            li.alist-tabs__item
+                button(data-hex=item.colorBack).alist-tabs__btn-tab.btn-tab.btn-tab-js=item.text
+                    //- svg(width="33" height="18" role="img").btn-tab__vector
+                    //-     use(xlink:href="src/img/vector.svg")
+                span.alist-tabs__avatar
+                    img(src=item.imgUrl)

@@ -1,0 +1,9 @@
+.header__main-head.main-head
+    a(href="#").main-head__main-logo.main-logo
+        img.main-logo__img(src="./src/img/logo.svg")
+
+    nav.main-head__main-nav.main-nav
+        ul.main-nav__list
+            each item in data.menu.items
+                li.main-nav__item   
+                    a(href=item.link).main-nav__link=item.name

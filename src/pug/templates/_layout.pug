@@ -1,0 +1,15 @@
+doctype 
+html(lang="ru")
+    head 
+        include _incl-meta
+
+    body.body
+        header.body__header.header(style="background: linear-gradient(90deg, #04486A 0%, #0C7882 100%);")
+            .header__container.container
+                include _head
+                include ../includes/_offer
+
+        
+    block libs-js
+        script(src="/js/jquery.js")
+        script(src="/js/main.js")

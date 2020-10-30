@@ -1,0 +1,34 @@
+{
+    "items": [
+      {
+        "link": "#entrepreneur",
+        "text": "Я — предприниматель",
+        "imgUrl": "src/img/businessman.png",
+        "colorBack": "linear-gradient(264.07deg, #746DFD 0%, #1641AE 100%)"
+      },
+      {
+        "link": "#freelancer",
+        "text": "Я — самозанятый/фрилансер",
+        "imgUrl": "src/img/freelancer.png",
+        "colorBack": "linear-gradient(84.07deg, #5C1233 0%, #99315F 100%)"
+      },
+      {
+        "link": "#remote",
+        "text": "Я — сотрудник на удаленке",
+        "imgUrl": "src/img/remote.png",
+        "colorBack": "linear-gradient(264.07deg, #029775 0%, #00534C 100%)"
+      },
+      {
+        "link": "#retiree",
+        "text": "Я — пенсионер",
+        "imgUrl": "src/img/retiree.png",
+        "colorBack": "linear-gradient(264.07deg, #7014B3 0%, #500D76 100%)"
+      },
+      {
+        "link": "#student",
+        "text": "Я — сотрудник ВУЗа/студент",
+        "imgUrl": "src/img/student.png",
+        "colorBack": "linear-gradient(264.07deg, #0F237C 0%, #061450 100%)"
+      }
+    ]
+  }
